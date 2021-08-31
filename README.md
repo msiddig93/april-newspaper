@@ -58,6 +58,7 @@
 > `composer install`
 > `copy .env-example to .env`
 > `php artisan key:generate` to generate new key
+> `composer dump-autoload` to clean the cache
 > `php artisan migrate --seed`
 > with database seeder will create user with credential
 > `email : mohamed@gmail.com`
