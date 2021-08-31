@@ -53,15 +53,15 @@
 - 2 one [upload()] use to upload .
 
 #### how run the app
-> `git clone https://github.com/msiddig93/april-newspaper.git`
-> `cd april-newspaper`
-> `composer install`
-> `copy .env-example to .env`
-> `php artisan key:generate` to generate new key
-> `composer dump-autoload` to clean the cache
-> `php artisan migrate --seed`
-> with database seeder will create user with credential
-> `email : mohamed@gmail.com`
-> `password : 123456`
-> now run `php artisan serve` to start the server
-> access the [dashboard](127.0.0.1:8000) `127.0.0.1:8000` as the defualt host:port
+- > `git clone https://github.com/msiddig93/april-newspaper.git`
+- > `cd april-newspaper`
+- > `composer install`
+- > `copy .env-example to .env`
+- > `php artisan key:generate` to generate new key
+- > `composer dump-autoload` to clean the cache
+- > `php artisan migrate --seed`
+- > with database seeder will create user with credential
+- > `email : mohamed@gmail.com`
+- > `password : 123456`
+- > now run `php artisan serve` to start the server
+- > access the [dashboard](127.0.0.1:8000) `127.0.0.1:8000` as the defualt host:port
