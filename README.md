@@ -1,14 +1,14 @@
 # April Newspaper
 
-# Table :-
+#### Table :-
 
-# User 'users' :-
+#### User 'users' :-
 - id
 - name
 - email
 - password
   
-# Writer 'writers' => الكُتاب
+#### Writer 'writers' => الكُتاب
 - id
 - name
 - email
@@ -18,41 +18,41 @@
 - twitter
 - birthdate 
 
-# Department 'departments' => أقسام الموقع/الاخبار
+#### Department 'departments' => أقسام الموقع/الاخبار
 - id
 - name
 - logo
 
-# New 'news' => الاخبار
+#### New 'news' => الاخبار
 - id
 - department_id
 - title
 - content
 
-# NewMedia 'mews_medias' => مرفقات الخبر
+#### NewMedia 'mews_medias' => مرفقات الخبر
 - id
 - new_id
 - type => [ image || video ]
 - path
 
-# Comment 'comments'
+#### Comment 'comments'
 - id
 - comment
 - new_id
 - guest_name
 - guest_email
 
-# Setting 'settings'
+#### Setting 'settings'
 - id
 - name
 - value
 
-# You must not
+#### You must not
 - [helper.php](app/Helpers/helper.php) file with 2 function 
 - first one [setting()] return the value for the setting name
 - 2 one [upload()] use to upload .
 
-# how run the app
+#### how run the app
 > `git clone https://github.com/msiddig93/april-newspaper.git`
 > `cd april-newspaper`
 > `composer install`
