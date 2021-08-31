@@ -26,6 +26,7 @@
 #### New 'news' => الاخبار
 - id
 - department_id
+- writer_id
 - title
 - content
 
