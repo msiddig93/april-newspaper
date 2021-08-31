@@ -47,7 +47,7 @@
 - name
 - value
 
-#### You must not
+#### You must know
 - [helper.php](app/Helpers/helper.php) file with 2 function 
 - first one [setting()] return the value for the setting name
 - 2 one [upload()] use to upload .
