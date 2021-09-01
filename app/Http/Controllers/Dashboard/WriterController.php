@@ -49,12 +49,12 @@ class WriterController extends Controller
                 ]);
             }
             DB::commit();
-            toastr()->success('تم حفظ بيانات الكاتب بنجاح');
+            message('success', 'تم حفظ بيانات الكاتب بنجاح');
             return redirect()->route('writers.index');
         }catch(\Exception $e){
             DB::rollback();
             Log::error($e->getMessage());
-            toastr()->error('حدث خطأ ما الرجاء المحاولة لاحقاً');
+            message('error');
             return redirect()->back()->withInput();
         }
     }

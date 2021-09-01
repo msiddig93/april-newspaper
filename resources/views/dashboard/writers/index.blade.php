@@ -48,13 +48,9 @@
                                                         العمليات
                                                     </a>
                                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                                        <a class="dropdown-item" href="{{route('writers.edit',$writer->id)}}"><i style="color: #ffc107" class="far fa-eye "></i>&nbsp;  عرض بيانات الطالب</a>
-                                                        <a class="dropdown-item" href="{{route('writers.edit',$writer->id)}}"><i style="color:green" class="fa fa-edit"></i>&nbsp;  تعديل بيانات الطالب</a>
-                                                        <a class="dropdown-item" href="{{route('writers.show',$writer->id)}}"><i style="color: #0000cc" class="fa fa-edit"></i>&nbsp;اضافة فاتورة رسوم&nbsp;</a>
-                                                        <a class="dropdown-item" href="{{route('writers.show',$writer->id)}}"><i style="color: #9dc8e2" class="fas fa-money-bill-alt"></i>&nbsp; &nbsp;سند قبض</a>
-                                                        <a class="dropdown-item" href="{{route('writers.show',$writer->id)}}"><i style="color: #9dc8e2" class="fas fa-money-bill-alt"></i>&nbsp; &nbsp; استبعاد رسوم</a>
-                                                        <a class="dropdown-item" href="{{route('writers.show',$writer->id)}}"><i style="color:goldenrod" class="fas fa-donate"></i>&nbsp; &nbsp;سند صرف</a>
-                                                        <a class="dropdown-item" data-target="#Delete_Student{{ $writer->id }}" data-toggle="modal" href="##Delete_Student{{ $writer->id }}"><i style="color: red" class="fa fa-trash"></i>&nbsp;  حذف بيانات الطالب</a>
+                                                        <a class="dropdown-item" href="{{route('writers.edit',$writer->id)}}"><i style="color: #ffc107" class="far fa-eye "></i>&nbsp;  عرض بيانات الكاتب</a>
+                                                        <a class="dropdown-item" href="{{route('writers.edit',$writer->id)}}"><i style="color:green" class="fa fa-edit"></i>&nbsp;  تعديل بيانات الكاتب</a>
+                                                        <a class="dropdown-item" data-target="#Delete_Student{{ $writer->id }}" data-toggle="modal" href="##Delete_Student{{ $writer->id }}"><i style="color: red" class="fa fa-trash"></i>&nbsp;  حذف بيانات الكاتب</a>
                                                     </div>
                                                 </div>
                                             </td>

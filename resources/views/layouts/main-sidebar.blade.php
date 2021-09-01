@@ -40,8 +40,7 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Department-icon" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="#">الاقسام</a> </li>
-                            <li> <a href="#">إضافة قسم</a> </li>
+                            <li> <a href="{{ route('departments.index') }}">الاقسام</a> </li>
                         </ul>
                     </li>
 

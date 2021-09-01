@@ -14,3 +14,14 @@ function upload($file, $path){
     $file->store($path);
     return 'uploads/'. $path .'/' . $file->hashName();
 }
+
+
+function message($type = 'error', $message = null){
+    if($type == 'success'){
+        $msg = $message ?? 'تمت العملية بنجاح';
+        toastr()->success($msg);
+    }else{
+        $msg = $message ?? 'حدث خطأ ما الرجاء المحاولة لاحقاً';
+        toastr()->error($msg);
+    }
+}

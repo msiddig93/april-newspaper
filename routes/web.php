@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Dashboard\DepartmentController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -26,5 +27,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth', 'namespace' => 'D
     Route::resource('settings', 'SettingController');
     // Writer Routes
     Route::resource('writers', 'WriterController');
+    // department Routes
+    Route::resource('departments', 'DepartmentController');
 
 });
