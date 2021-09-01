@@ -65,4 +65,4 @@
 1. > `email : mohamed@gmail.com`
 1. > `password : 123456`
 1. > now run `php artisan serve` to start the server
-1. > access the [dashboard](127.0.0.1:8000) `127.0.0.1:8000` as the defualt host:port
+1. > access the [dashboard](http://127.0.0.1:8000/dashboard) `127.0.0.1:8000/dashboard` as the defualt host:port
