@@ -29,5 +29,7 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'auth', 'namespace' => 'D
     Route::resource('writers', 'WriterController');
     // department Routes
     Route::resource('departments', 'DepartmentController');
+    // Articale Routes
+    Route::resource('articale', 'ArticaleController');
 
 });

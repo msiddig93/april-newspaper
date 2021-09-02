@@ -23,16 +23,21 @@
 - name
 - logo
 
-#### New 'news' => الاخبار
+#### Articale 'articales' => الاخبار
 - id
 - department_id
 - writer_id
 - title
 - content
+- archived
+- archived_at
+- publish_at
+- views
+- likes
 
-#### NewMedia 'mews_medias' => مرفقات الخبر
+#### ArticaleMedia 'articale_media' => مرفقات الخبر
 - id
-- new_id
+- articale_id
 - type => [ image || video ]
 - path
 

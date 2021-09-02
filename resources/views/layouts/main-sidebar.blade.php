@@ -2,7 +2,7 @@
     <div class="row">
         <!-- Left Sidebar start-->
         <div class="side-menu-fixed">
-            <div class="scrollbar side-menu-bg" style="overflow: scroll">
+            <div class="scrollbar side-menu-bg" style="overflow: no-scroll">
                 <ul class="nav navbar-nav side-menu" id="sidebarnav">
                     <!-- menu item Dashboard-->
                     <li>
@@ -54,8 +54,8 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="news-icon" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="fontawesome-icon.html">الأخبار</a> </li>
-                            <li> <a href="themify-icons.html">إضافة خبر</a> </li>
+                            <li> <a href="{{ route('articale.index') }}">الأخبار</a> </li>
+                            <li> <a href="{{ route('articale.create') }}">إضافة خبر</a> </li>
                             <li> <a href="weather-icon.html">الأرشيف</a> </li>
                         </ul>
                     </li>

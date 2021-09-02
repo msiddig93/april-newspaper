@@ -26,7 +26,7 @@
     </style>
 </head>
 
-<body>
+<body class="">
 
     <div class="wrapper" style="font-family: 'Cairo', sans-serif">
 
